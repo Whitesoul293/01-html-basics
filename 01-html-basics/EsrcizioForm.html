@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iscrizione corso</title>
+</head>
+<body>
+  
+  <h1>Iscrizione corso Web Developer</h1>
+
+  <main>
+    <form action="/www.corso-online-truffa.it" method="post">
+      <label for="nome">Nome *</label>
+      <input type="text" id="nome" name="nome" required><br>
+
+      <label for="cognome">Cognome *</label>
+      <input type="text" id="cognome" name="cognome" required><br>
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required><br>
+       
+      <label for="password">Password *</label>
+      <input type="password" id="password" name="password" minlength="8" maxlength="8" required><br>
+      <p>Minimo 8 caratteri e massimo 16 caratteri</p>
+
+      <label for="età">Età</label>
+      <input type="number" id="età" name="età" min="18" max="100">
+
+      <p>Livello di esperienza</p>
+
+      <input type="radio" id="bassa" name="bassa">
+      <label for="bassa">Bassa</label><br>
+
+      <input type="radio" id="intermedia" name="intermedia">
+      <label for="intermedia">Intermedia</label><br>
+
+      <input type="radio" id="avanzata" name="avanzata">
+      <label for="avanzata">Avanzata</label><br>
+      
+      <input type="checkbox" name="t&c" id="t&c" required>
+      <label for="t&c">Termini & condizioni</label><br>
+
+    </form>
+  </main>
+
+</body>
+</html>
