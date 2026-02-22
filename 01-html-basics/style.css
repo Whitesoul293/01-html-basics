@@ -11,3 +11,8 @@ fieldset {
   margin-bottom: 20px;
   border-radius: 5%;
 }
+
+input {
+  padding: 2px;
+  margin-bottom: 5px;
+}
