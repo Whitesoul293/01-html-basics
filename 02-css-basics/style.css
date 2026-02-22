@@ -24,3 +24,47 @@ p {
 }
 
 /* L'ultima regola è quella che suprema sulle altre in caso di richiamo dello stesso tag o id oppure classe */
+
+
+
+/* Box model */
+
+/* Struttura */
+
+/* 
+Content -> testo
+Padding -> spazio interno
+Border -> bordo
+margin -> Spazio esterno
+*/
+
+/* Esempio */
+
+div {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+/* proprietà essenziali */
+
+/* 
+color
+
+background-color
+
+font-family
+
+font-size
+
+margin
+
+padding
+
+border
+
+width
+
+height
+ */
