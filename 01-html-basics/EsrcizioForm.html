@@ -4,48 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iscrizione corso</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
   <h1>Iscrizione corso Web Developer</h1>
 
-  <main>
     <form action="/www.corso-online-truffa.it" method="post">
-      <label for="nome">Nome *</label>
-      <input type="text" id="nome" name="nome" required><br>
 
-      <label for="cognome">Cognome *</label>
-      <input type="text" id="cognome" name="cognome" required><br>
-
-      <label for="email">Email *</label>
-      <input type="email" id="email" name="email" required><br>
-       
-      <label for="password">Password *</label>
-      <input type="password" id="password" name="password" minlength="8" maxlength="16" required><br>
-      <p>Minimo 8 caratteri e massimo 16 caratteri</p>
-
-      <label for="età">Età</label>
-      <input type="number" id="età" name="età" min="18" max="100">
-
-      <p>Livello di esperienza</p>
-
-      <input type="radio" id="bassa" name="livello" value="bassa">
-      <label for="bassa">Bassa</label><br>
-
-      <input type="radio" id="intermedia" name="livello" value="intermedia"> 
-      <label for="intermedia">Intermedia</label><br>
-
-      <input type="radio" id="avanzata" name="livello" value="avanzata">
-      <label for="avanzata">Avanzata</label><br>
+      <!-- FIELDSET 1: DATI PERSONALI -->
+      <fieldset>
+        <legend>Dati personali</legend>
       
-      <input type="checkbox" name="t&c" id="t&c" required>
-      <label for="t&c">Termini & condizioni</label><br>
+        <label for="nome">Nome *</label>
+        <input type="text" id="nome" name="nome" required><br>
+      
+        <label for="cognome">Cognome *</label>
+        <input type="text" id="cognome" name="cognome" required><br>
+      
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required><br>
 
+        <label for="password">Password *</label>
+        <input type="password" id="password" name="password" minlength="8" maxlength="16" required><br>
+        <p>Minimo 8 caratteri e massimo 16 caratteri</p>
+      
+        <label for="eta">Età</label>
+        <input type="number" id="eta" name="eta" min="18" max="100">
+      </fieldset>
+    
+      <!-- FIELDSET 2: LIVELLO -->
+      <fieldset>
+        <legend>Livello di esperienza</legend>
+      
+        <input type="radio" id="bassa" name="livello" value="bassa">
+        <label for="bassa">Bassa</label><br>
+      
+        <input type="radio" id="intermedia" name="livello" value="intermedia">
+        <label for="intermedia">Intermedia</label><br>
+      
+        <input type="radio" id="avanzata" name="livello" value="avanzata">
+        <label for="avanzata">Avanzata</label><br>
+      
+        <input type="checkbox" id="tc" name="tc" required>
+        <label for="tc">Termini & condizioni</label>
+      </fieldset>
+    
       <button type="submit">Invio</button>
       <button type="reset">Cancella modulo</button>
-      <button type="button"><a href="https://aulab.it/lp-hackademy-2024?utm_term=aulab&utm_source=adwords&utm_medium=ppc&utm_campaign=googleads_Aulab_Search_Brand&hsa_cam=10617260380&hsa_grp=154262707821&hsa_mt=e&hsa_src=g&hsa_ad=686641668378&hsa_acc=1259057101&hsa_net=adwords&hsa_kw=aulab&hsa_tgt=kwd-1048611554352&hsa_ver=3&gad_source=1&gad_campaignid=10617260380&gbraid=0AAAAADQgCuohPNv8qkW_R7V3qfjbTbGYf&gclid=CjwKCAiAncvMBhBEEiwA9GU_frQXBN26k64LMS8s-AxsBryiiuSX_hMl3uqSlgPryrjEBIfKv2iTshoCXnUQAvD_BwE">Info corso</a></button>
-
-
+      <button type="button">Info corso</button>
+    
     </form>
   </main>
 

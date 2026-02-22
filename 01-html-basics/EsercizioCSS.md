@@ -2,11 +2,11 @@ STEP 1 — Imposta la base della pagina
 
 Nel body:
 
-Cambia font in un sans-serif
+Cambia font in un sans-serif V
 
-Imposta una dimensione testo leggibile
+Imposta una dimensione testo leggibile V
 
-Aggiungi spazio intorno alla pagina
+Aggiungi spazio intorno alla pagina V
 
 STEP 2 — Sistema i Fieldset
 
