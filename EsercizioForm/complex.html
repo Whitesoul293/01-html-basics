@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Completo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Corso Web Developer</h1>
+    <nav>menu</nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Cosa Offriamo</h2>
+      <p>Trattasi di un corso personale sul costruire delle basi soldi per la creazione e manutenzione dei siti web</p>
+    </section>
+
+    <section>
+      
+       <form action="/www.corso-online-truffa.it" method="post">
+
+        <!-- FIELDSET 1: DATI PERSONALI -->
+        <fieldset>
+          <legend>Dati personali</legend>
+        
+          <label for="nome">Nome *</label>
+          <input type="text" id="nome" name="nome" required><br>
+        
+          <label for="cognome">Cognome *</label>
+          <input type="text" id="cognome" name="cognome" required><br>
+        
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required><br>
+        
+          <label for="password">Password *</label>
+          <input type="password" id="password" name="password" minlength="8" maxlength="16" required><br>
+          <p>Minimo 8 caratteri e massimo 16 caratteri</p>
+        
+          <label for="eta">Età</label>
+          <input type="number" id="eta" name="eta" min="18" max="100">
+        </fieldset>
+      
+        <!-- FIELDSET 2: LIVELLO -->
+        <fieldset>
+          <legend>Livello di esperienza</legend>
+        
+          <input type="radio" id="bassa" name="livello" value="bassa">
+          <label for="bassa">Bassa</label><br>
+        
+          <input type="radio" id="intermedia" name="livello" value="intermedia">
+          <label for="intermedia">Intermedia</label><br>
+        
+          <input type="radio" id="avanzata" name="livello" value="avanzata">
+          <label for="avanzata">Avanzata</label><br>
+        
+          <input type="checkbox" id="tc" name="tc" required>
+          <label for="tc">Termini & condizioni</label>
+        </fieldset>
+      
+        <button id="invio" type="submit">Invio</button>
+        <button id="cancella" type="reset">Cancella modulo</button>
+        <button id="info" type="button">Info corso</button>
+    
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Grazie per averci scelto</p>
+  </footer>
+
+</body>
+</html>
