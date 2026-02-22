@@ -1,0 +1,26 @@
+/* CSS viene considerato un modello a cascata, che viene considerato soltanto l'ultimo elemento nel foglio per applicare la modifica desiderata */
+
+/* Così si colorano i paragrafi per tag  */
+p {
+  color: blue;
+} 
+
+/* "." con il punto si indica che viene modificata una classe */
+
+.testo {
+  color: red;
+}
+
+/* "#" con l'hastag viene modificato un id */
+
+#testo {
+  color: green;
+}
+
+/* Se ora motifico il tag "p" lore verrà cambiato per l'effetto a cascata */
+
+p {
+  color: aqua;
+}
+
+/* L'ultima regola è quella che suprema sulle altre in caso di richiamo dello stesso tag o id oppure classe */
