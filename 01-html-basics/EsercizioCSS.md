@@ -14,13 +14,13 @@ Devi trasformarli da scatole brutte di default a blocchi ordinati.
 
 Rendili:
 
-con bordo più elegante
+con bordo più elegante V
 
-con spazio interno
+con spazio interno V
 
-separati tra loro con margine
+separati tra loro con margine V
 
-con angoli leggermente arrotondati
+con angoli leggermente arrotondati V (da rivedere)
 
 STEP 3 — Migliora Label e Input
 
