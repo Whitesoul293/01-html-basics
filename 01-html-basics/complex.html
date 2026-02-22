@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Completo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -37,12 +38,11 @@
 
           <label for="età">Età</label>
           <input type="number" id="età" name="età" min="18" max="100">
-        </fieldset>
-      
 
-        <h3>Livello di esperienza</h3>
+                
 
-        <legend>
+          <legend>Livello di esperienza</legend>
+
           <input type="radio" id="bassa" name="livello" value="bassa">
           <label for="bassa">Bassa</label><br>
 
@@ -54,7 +54,9 @@
           
           <input type="checkbox" name="t&c" id="t&c" required>
           <label for="t&c">Termini & condizioni</label><br>
-        </legend>
+          
+        </fieldset>
+
 
         <button type="submit">Invio</button>
         <button type="reset">Cancella modulo</button>
