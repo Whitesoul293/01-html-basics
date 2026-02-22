@@ -20,4 +20,17 @@ input {
 button {
   border: 0;
   padding: 5px;
+  color: white;
+}
+
+#invio{
+  background-color: green;
+}
+
+#cancella{
+  background-color: red;
+}
+
+#info{
+  background-color: gray;
 }

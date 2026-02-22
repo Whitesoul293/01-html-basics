@@ -49,11 +49,11 @@ Trasformali da “anni 2003” a qualcosa di più moderno:
 
 - aggiungi padding V
 
-- cambia colore di sfondo
+- cambia colore di sfondo V
 
-- cambia colore del testo
+- cambia colore del testo V
 
-- separali tra loro con spazio
+- separali tra loro con spazio VS
 
 🔹 STEP 5 — Piccola sfida di selettori
 
